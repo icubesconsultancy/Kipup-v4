@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B73A41751BB03F2B00E38CEE /* SlideOutMenu-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B73A41711BB03F2B00E38CEE /* SlideOutMenu-Info.plist */; };
+		B73A417A1BB040C500E38CEE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73A41791BB040C500E38CEE /* SWRevealViewController.m */; };
+		B773A1A61BAC6A8700B18012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B773A1A51BAC6A8700B18012 /* main.m */; };
+		B773A1A91BAC6A8700B18012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B773A1A81BAC6A8700B18012 /* AppDelegate.m */; };
+		B773A1AC1BAC6A8700B18012 /* Kip_Up.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B773A1AA1BAC6A8700B18012 /* Kip_Up.xcdatamodeld */; };
+		B773A1AF1BAC6A8700B18012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B773A1AE1BAC6A8700B18012 /* ViewController.m */; };
+		B773A1B41BAC6A8700B18012 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B773A1B31BAC6A8700B18012 /* Images.xcassets */; };
+		B773A1B71BAC6A8700B18012 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B773A1B51BAC6A8700B18012 /* LaunchScreen.xib */; };
+		B773A1C31BAC6A8700B18012 /* Kip_UpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B773A1C21BAC6A8700B18012 /* Kip_UpTests.m */; };
+		B7903F081BB054A100FFDA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7903F071BB054A100FFDA4B /* Main.storyboard */; };
+		B79D8EDA1BB1BD12008419C0 /* menuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79D8ED91BB1BD12008419C0 /* menuViewController.m */; };
+		B79D8EDE1BB1BD9A008419C0 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79D8EDD1BB1BD9A008419C0 /* NavigationViewController.m */; };
+		B79D8EE01BB1BDE0008419C0 /* klogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B79D8EDF1BB1BDE0008419C0 /* klogo.png */; };
+		B79D8EE41BB25CCB008419C0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79D8EE31BB25CCB008419C0 /* MasterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B773A1BD1BAC6A8700B18012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B773A1981BAC6A8600B18012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B773A19F1BAC6A8700B18012;
+			remoteInfo = "Kip Up";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B73A41711BB03F2B00E38CEE /* SlideOutMenu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SlideOutMenu-Info.plist"; sourceTree = "<group>"; };
+		B73A41741BB03F2B00E38CEE /* SlideOutMenu-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SlideOutMenu-Prefix.pch"; sourceTree = "<group>"; };
+		B73A41781BB040C500E38CEE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B73A41791BB040C500E38CEE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B773A1A01BAC6A8700B18012 /* Kip Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kip Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B773A1A41BAC6A8700B18012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B773A1A51BAC6A8700B18012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B773A1A71BAC6A8700B18012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B773A1A81BAC6A8700B18012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B773A1AB1BAC6A8700B18012 /* Kip_Up.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kip_Up.xcdatamodel; sourceTree = "<group>"; };
+		B773A1AD1BAC6A8700B18012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B773A1AE1BAC6A8700B18012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B773A1B31BAC6A8700B18012 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B773A1B61BAC6A8700B18012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B773A1BC1BAC6A8700B18012 /* Kip UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kip UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B773A1C11BAC6A8700B18012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B773A1C21BAC6A8700B18012 /* Kip_UpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kip_UpTests.m; sourceTree = "<group>"; };
+		B7903F071BB054A100FFDA4B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B79D8ED91BB1BD12008419C0 /* menuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuViewController.m; sourceTree = "<group>"; };
+		B79D8EDB1BB1BD4E008419C0 /* menuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menuViewController.h; sourceTree = "<group>"; };
+		B79D8EDC1BB1BD9A008419C0 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		B79D8EDD1BB1BD9A008419C0 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		B79D8EDF1BB1BDE0008419C0 /* klogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = klogo.png; sourceTree = "<group>"; };
+		B79D8EE21BB25CCB008419C0 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B79D8EE31BB25CCB008419C0 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B79D8EE51BB25CE0008419C0 /* AddressBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddressBook-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B773A19D1BAC6A8700B18012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773A1B91BAC6A8700B18012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B73A41701BB03F0000E38CEE /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				B73A41781BB040C500E38CEE /* SWRevealViewController.h */,
+				B73A41791BB040C500E38CEE /* SWRevealViewController.m */,
+				B79D8EDC1BB1BD9A008419C0 /* NavigationViewController.h */,
+				B79D8EDD1BB1BD9A008419C0 /* NavigationViewController.m */,
+				B79D8EDB1BB1BD4E008419C0 /* menuViewController.h */,
+				B79D8ED91BB1BD12008419C0 /* menuViewController.m */,
+				B73A41711BB03F2B00E38CEE /* SlideOutMenu-Info.plist */,
+				B73A41741BB03F2B00E38CEE /* SlideOutMenu-Prefix.pch */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		B773A1971BAC6A8600B18012 = {
+			isa = PBXGroup;
+			children = (
+				B773A1A21BAC6A8700B18012 /* Kip Up */,
+				B773A1BF1BAC6A8700B18012 /* Kip UpTests */,
+				B773A1A11BAC6A8700B18012 /* Products */,
+				B73A41701BB03F0000E38CEE /* menu */,
+				B79D8EE11BB25C89008419C0 /* AddressBook */,
+				B79D8EE61BB25D01008419C0 /* FrameWork */,
+			);
+			sourceTree = "<group>";
+		};
+		B773A1A11BAC6A8700B18012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B773A1A01BAC6A8700B18012 /* Kip Up.app */,
+				B773A1BC1BAC6A8700B18012 /* Kip UpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B773A1A21BAC6A8700B18012 /* Kip Up */ = {
+			isa = PBXGroup;
+			children = (
+				B773A1A71BAC6A8700B18012 /* AppDelegate.h */,
+				B773A1A81BAC6A8700B18012 /* AppDelegate.m */,
+				B773A1AD1BAC6A8700B18012 /* ViewController.h */,
+				B773A1AE1BAC6A8700B18012 /* ViewController.m */,
+				B79D8EDF1BB1BDE0008419C0 /* klogo.png */,
+				B773A1B31BAC6A8700B18012 /* Images.xcassets */,
+				B773A1B51BAC6A8700B18012 /* LaunchScreen.xib */,
+				B7903F071BB054A100FFDA4B /* Main.storyboard */,
+				B773A1AA1BAC6A8700B18012 /* Kip_Up.xcdatamodeld */,
+				B773A1A31BAC6A8700B18012 /* Supporting Files */,
+			);
+			path = "Kip Up";
+			sourceTree = "<group>";
+		};
+		B773A1A31BAC6A8700B18012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B773A1A41BAC6A8700B18012 /* Info.plist */,
+				B773A1A51BAC6A8700B18012 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B773A1BF1BAC6A8700B18012 /* Kip UpTests */ = {
+			isa = PBXGroup;
+			children = (
+				B773A1C21BAC6A8700B18012 /* Kip_UpTests.m */,
+				B773A1C01BAC6A8700B18012 /* Supporting Files */,
+			);
+			path = "Kip UpTests";
+			sourceTree = "<group>";
+		};
+		B773A1C01BAC6A8700B18012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B773A1C11BAC6A8700B18012 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B79D8EE11BB25C89008419C0 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				B79D8EE51BB25CE0008419C0 /* AddressBook-Prefix.pch */,
+				B79D8EE21BB25CCB008419C0 /* MasterViewController.h */,
+				B79D8EE31BB25CCB008419C0 /* MasterViewController.m */,
+			);
+			name = AddressBook;
+			sourceTree = "<group>";
+		};
+		B79D8EE61BB25D01008419C0 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B773A19F1BAC6A8700B18012 /* Kip Up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B773A1C61BAC6A8700B18012 /* Build configuration list for PBXNativeTarget "Kip Up" */;
+			buildPhases = (
+				B773A19C1BAC6A8700B18012 /* Sources */,
+				B773A19D1BAC6A8700B18012 /* Frameworks */,
+				B773A19E1BAC6A8700B18012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kip Up";
+			productName = "Kip Up";
+			productReference = B773A1A01BAC6A8700B18012 /* Kip Up.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B773A1BB1BAC6A8700B18012 /* Kip UpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B773A1C91BAC6A8700B18012 /* Build configuration list for PBXNativeTarget "Kip UpTests" */;
+			buildPhases = (
+				B773A1B81BAC6A8700B18012 /* Sources */,
+				B773A1B91BAC6A8700B18012 /* Frameworks */,
+				B773A1BA1BAC6A8700B18012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B773A1BE1BAC6A8700B18012 /* PBXTargetDependency */,
+			);
+			name = "Kip UpTests";
+			productName = "Kip UpTests";
+			productReference = B773A1BC1BAC6A8700B18012 /* Kip UpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B773A1981BAC6A8600B18012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kip Up";
+				TargetAttributes = {
+					B773A19F1BAC6A8700B18012 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B773A1BB1BAC6A8700B18012 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B773A19F1BAC6A8700B18012;
+					};
+				};
+			};
+			buildConfigurationList = B773A19B1BAC6A8600B18012 /* Build configuration list for PBXProject "Kip Up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B773A1971BAC6A8600B18012;
+			productRefGroup = B773A1A11BAC6A8700B18012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B773A19F1BAC6A8700B18012 /* Kip Up */,
+				B773A1BB1BAC6A8700B18012 /* Kip UpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B773A19E1BAC6A8700B18012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7903F081BB054A100FFDA4B /* Main.storyboard in Resources */,
+				B73A41751BB03F2B00E38CEE /* SlideOutMenu-Info.plist in Resources */,
+				B773A1B71BAC6A8700B18012 /* LaunchScreen.xib in Resources */,
+				B79D8EE01BB1BDE0008419C0 /* klogo.png in Resources */,
+				B773A1B41BAC6A8700B18012 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773A1BA1BAC6A8700B18012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B773A19C1BAC6A8700B18012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73A417A1BB040C500E38CEE /* SWRevealViewController.m in Sources */,
+				B773A1A91BAC6A8700B18012 /* AppDelegate.m in Sources */,
+				B79D8EDA1BB1BD12008419C0 /* menuViewController.m in Sources */,
+				B773A1AC1BAC6A8700B18012 /* Kip_Up.xcdatamodeld in Sources */,
+				B79D8EE41BB25CCB008419C0 /* MasterViewController.m in Sources */,
+				B79D8EDE1BB1BD9A008419C0 /* NavigationViewController.m in Sources */,
+				B773A1AF1BAC6A8700B18012 /* ViewController.m in Sources */,
+				B773A1A61BAC6A8700B18012 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773A1B81BAC6A8700B18012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B773A1C31BAC6A8700B18012 /* Kip_UpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B773A1BE1BAC6A8700B18012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B773A19F1BAC6A8700B18012 /* Kip Up */;
+			targetProxy = B773A1BD1BAC6A8700B18012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B773A1B51BAC6A8700B18012 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B773A1B61BAC6A8700B18012 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B773A1C41BAC6A8700B18012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B773A1C51BAC6A8700B18012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B773A1C71BAC6A8700B18012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Kip Up/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B773A1C81BAC6A8700B18012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Kip Up/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B773A1CA1BAC6A8700B18012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kip UpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kip Up.app/Kip Up";
+			};
+			name = Debug;
+		};
+		B773A1CB1BAC6A8700B18012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kip UpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kip Up.app/Kip Up";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B773A19B1BAC6A8600B18012 /* Build configuration list for PBXProject "Kip Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B773A1C41BAC6A8700B18012 /* Debug */,
+				B773A1C51BAC6A8700B18012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B773A1C61BAC6A8700B18012 /* Build configuration list for PBXNativeTarget "Kip Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B773A1C71BAC6A8700B18012 /* Debug */,
+				B773A1C81BAC6A8700B18012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B773A1C91BAC6A8700B18012 /* Build configuration list for PBXNativeTarget "Kip UpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B773A1CA1BAC6A8700B18012 /* Debug */,
+				B773A1CB1BAC6A8700B18012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B773A1AA1BAC6A8700B18012 /* Kip_Up.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B773A1AB1BAC6A8700B18012 /* Kip_Up.xcdatamodel */,
+			);
+			currentVersion = B773A1AB1BAC6A8700B18012 /* Kip_Up.xcdatamodel */;
+			path = Kip_Up.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B773A1981BAC6A8600B18012 /* Project object */;
+}
